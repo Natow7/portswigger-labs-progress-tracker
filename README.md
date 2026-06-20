@@ -1,18 +1,18 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-9-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--20-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-3.3%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-10-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--20-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-3.6%25-purple)
 ch
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 2 of 61
-- **Practitioner**: 7 of 174
+- **Practitioner**: 8 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 0/14 lab
-- **SQL injection**: 9/18 lab
+- **SQL injection**: 10/18 lab
 - **Access control**: 0/13 lab
 
 ## Notes
@@ -43,4 +43,5 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 7 | 2026-06-18 | SQL injection | SQL injection attack, querying the database type and version on MySQL and Microsoft | Practitioner | N/A |
 | 8 | 2026-06-18 | SQL injection | SQL injection attack, listing the database contents on non-Oracle databases | Practitioner | N/A |
 | 9 | 2026-06-20 | SQL injection | Blind SQL injection with conditional responses | Practitioner | N/A |
+| 10 | 2026-06-20 | SQL injection | Blind SQL injection with conditional errors | Practitioner | N/A |
 chcccccccccc
