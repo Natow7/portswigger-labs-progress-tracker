@@ -50,4 +50,3 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 14 | 2026-06-21 | Access control | User role can be modified in user profile | Apprentice | N/A |
 | 15 | 2026-06-21 | Access control | User ID controlled by request parameter | Apprentice | N/A |
 | 16 | 2026-06-21 | Access control | Insecure direct object references | Apprentice | N/A |
-chcccccccccc
