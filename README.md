@@ -55,4 +55,3 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 16  | 2026-06-21 | Access control                 | Insecure direct object references                                                   | Apprentice   | N/A          |
 | 17  | 2026-06-28 | Authentication vulnerabilities | Username enumeration via different responses                                        | Practitioner | N/A          |
 
-> > > > > > > b5da34c (Completed: Username enumeration via different responses)
