@@ -1,18 +1,18 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-18-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--28-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-6.6%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-19-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--28-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-6.9%25-purple)
 ch
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 7 of 61
-- **Practitioner**: 11 of 174
+- **Practitioner**: 12 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
-- **Authentication vulnerabilities**: 2/14 lab
+- **Authentication vulnerabilities**: 3/14 lab
 - **SQL injection**: 11/18 lab
 - **Access control**: 5/13 lab
 
@@ -55,4 +55,5 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 16  | 2026-06-21 | Access control                 | Insecure direct object references                                                   | Apprentice   | N/A          |
 | 17  | 2026-06-28 | Authentication vulnerabilities | Username enumeration via different responses                                        | Practitioner | N/A          |
 | 18 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via subtly different responses | Practitioner | N/A |
+| 19 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via response timing | Practitioner | N/A |
 
