@@ -1,18 +1,18 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-23-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--30-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-8.4%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-24-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--01-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-8.8%25-purple)
 ch
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 8 of 61
-- **Practitioner**: 15 of 174
+- **Practitioner**: 16 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
-- **Authentication vulnerabilities**: 7/14 lab
+- **Authentication vulnerabilities**: 8/14 lab
 - **SQL injection**: 11/18 lab
 - **Access control**: 5/13 lab
 
@@ -59,6 +59,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 20 | 2026-06-28 | Authentication vulnerabilities | Broken brute-force protection, IP block | Practitioner | N/A |
 | 21 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via account lock | Practitioner | N/A |
 | 22 | 2026-06-28 | Authentication vulnerabilities | 2FA simple bypass | Apprentice | N/A |
-
+| 23 | 2026-06-30 | Authentication vulnerabilities | Broken brute-force protection, IP block | Practitioner | N/A |
+| 24 | 2026-07-01 | Authentication vulnerabilities | 2FA broken logic | Practitioner | N/A |
 
 
