@@ -59,5 +59,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 20 | 2026-06-28 | Authentication vulnerabilities | Broken brute-force protection, IP block | Practitioner | N/A |
 | 21 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via account lock | Practitioner | N/A |
 | 22 | 2026-06-28 | Authentication vulnerabilities | 2FA simple bypass | Apprentice | N/A |
-| 23 | 2026-06-30 | Authentication vulnerabilities | Broken brute-force protection, IP block | Practitioner | N/A |
+
+
 
