@@ -1,0 +1,15 @@
+{
+  "difficulties": {
+    "Apprentice": 61,
+    "Practitioner": 174,
+    "Expert": 39
+  },
+  "categories": {
+    "Authentication vulnerabilities": 14,
+    "SQL injection": 18,
+    "Access control": 13,
+    "Path traversal": 6,
+    "Command injection": 5
+  },
+  "total_labs": 285
+}
