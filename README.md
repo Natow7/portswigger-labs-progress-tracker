@@ -71,6 +71,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 30 | 2026-07-05 | Command injection | Blind OS command injection with output redirection | Practitioner | N/A |
 | 31 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band interaction | Practitioner | N/A |
 | 32 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band data exfiltration | Practitioner | N/A |
-|24  |
+
 
 
