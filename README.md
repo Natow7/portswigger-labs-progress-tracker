@@ -71,14 +71,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 30 | 2026-07-05 | Command injection | Blind OS command injection with output redirection | Practitioner | N/A |
 | 31 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band interaction | Practitioner | N/A |
 | 32 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band data exfiltration | Practitioner | N/A |
-<<<<<<< HEAD
-
-=======
 | 33 | 2026-07-12 | Access control | User role controlled by request parameter | Apprentice | N/A |
 | 34 | 2026-07-12 | Access control | URL-based access control can be circumvented | Practitioner | N/A |
 | 35 | 2026-07-12 | Access control | Method-based access control can be circumvented | Practitioner | N/A |
 | 36 | 2026-07-12 | Access control | Multi-step process with no access control on one step | Practitioner | N/A |
 |24  |
->>>>>>> d710e8d (Completed: User role controlled by request parameter)
 
 
