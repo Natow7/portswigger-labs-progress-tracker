@@ -1,18 +1,18 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-40-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--12-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-14%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-41-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--12-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-14.4%25-purple)
 ch
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 10 of 61
-- **Practitioner**: 30 of 174
+- **Practitioner**: 31 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
-- **Authentication vulnerabilities**: 8/14 lab
+- **Authentication vulnerabilities**: 9/14 lab
 - **SQL injection**: 11/18 lab
 - **Access control**: 10/13 lab
 - **Path traversal**: 6/6 lab
@@ -76,6 +76,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 35 | 2026-07-12 | Access control | Method-based access control can be circumvented | Practitioner | N/A |
 | 36 | 2026-07-12 | Access control | Multi-step process with no access control on one step | Practitioner | N/A |
 | 37 | 2026-07-12 | Access control | Referer-based access control | Practitioner | N/A |
+| 38 | 2026-07-12 | Authentication vulnerabilities | Brute-forcing a stay-logged-in cookie | Practitioner | N/A |
 
 
 
