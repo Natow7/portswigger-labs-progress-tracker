@@ -76,6 +76,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 35 | 2026-07-12 | Access control | Method-based access control can be circumvented | Practitioner | N/A |
 | 36 | 2026-07-12 | Access control | Multi-step process with no access control on one step | Practitioner | N/A |
 | 37 | 2026-07-12 | Access control | Referer-based access control | Practitioner | N/A |
-|24  |
+
 
 
