@@ -1,20 +1,20 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-35-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--05-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-12.3%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-37-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--12-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-13%25-purple)
 ch
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
-- **Apprentice**: 9 of 61
-- **Practitioner**: 26 of 174
+- **Apprentice**: 10 of 61
+- **Practitioner**: 27 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 8/14 lab
 - **SQL injection**: 11/18 lab
-- **Access control**: 5/13 lab
+- **Access control**: 7/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 
@@ -71,6 +71,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 30 | 2026-07-05 | Command injection | Blind OS command injection with output redirection | Practitioner | N/A |
 | 31 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band interaction | Practitioner | N/A |
 | 32 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band data exfiltration | Practitioner | N/A |
+<<<<<<< HEAD
 
+=======
+| 33 | 2026-07-12 | Access control | User role controlled by request parameter | Apprentice | N/A |
+| 34 | 2026-07-12 | Access control | URL-based access control can be circumvented | Practitioner | N/A |
+|24  |
+>>>>>>> d710e8d (Completed: User role controlled by request parameter)
 
 
