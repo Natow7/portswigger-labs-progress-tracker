@@ -9,7 +9,8 @@
     "SQL injection": 18,
     "Access control": 13,
     "Path traversal": 6,
-    "Command injection": 5
+    "Command injection": 5,
+    "File upload vulnerabilities": 7
   },
-  "total_labs": 285
+  "total_labs": 292
 }
