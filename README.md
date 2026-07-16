@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-45-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--16-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-15.4%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-46-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--16-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-15.8%25-purple)
 ch
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 12 of 61
-- **Practitioner**: 33 of 174
+- **Practitioner**: 34 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -17,7 +17,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Access control**: 10/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
-- **File upload vulnerabilities**: 4/7 lab
+- **File upload vulnerabilities**: 5/7 lab
 ## Notes
 
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -81,6 +81,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 40 | 2026-07-16 | File upload vulnerabilities | Web shell upload via Content-Type restriction bypass | Apprentice | N/A |
 | 41 | 2026-07-16 | File upload vulnerabilities | Web shell upload via path traversal | Practitioner | N/A |
 | 42 | 2026-07-16 | File upload vulnerabilities | Web shell upload via extension blacklist bypass | Practitioner | N/A |
+| 43 | 2026-07-16 | File upload vulnerabilities | Web shell upload via obfuscated file extension | Practitioner | N/A |
 
 
 
