@@ -10,7 +10,8 @@
     "Access control": 13,
     "Path traversal": 6,
     "Command injection": 5,
-    "File upload vulnerabilities": 7
+    "File upload vulnerabilities": 7,
+    "cross-site scripting": 30
   },
-  "total_labs": 292
+  "total_labs": 322
 }
