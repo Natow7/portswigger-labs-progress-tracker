@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-47-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--19-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-14.6%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-48-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--19-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-14.9%25-purple)
 ch
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
-- **Apprentice**: 13 of 61
+- **Apprentice**: 14 of 61
 - **Practitioner**: 34 of 174
 - **Expert**: 0 of 39
 
@@ -18,7 +18,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 5/7 lab
-- **cross-site scripting**: 1/30 lab
+- **cross-site scripting**: 2/30 lab
 
 ## Notes
 
