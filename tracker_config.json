@@ -11,7 +11,8 @@
     "Path traversal": 6,
     "Command injection": 5,
     "File upload vulnerabilities": 7,
-    "cross-site scripting": 30
+    "cross-site scripting": 30,
+    "API testing": 5
   },
-  "total_labs": 322
+  "total_labs": 327
 }
