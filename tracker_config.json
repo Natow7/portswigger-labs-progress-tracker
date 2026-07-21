@@ -12,7 +12,8 @@
     "Command injection": 5,
     "File upload vulnerabilities": 7,
     "cross-site scripting": 30,
-    "API testing": 5
+    "API testing": 5,
+    "Race conditions": 6
   },
-  "total_labs": 327
+  "total_labs": 333
 }
