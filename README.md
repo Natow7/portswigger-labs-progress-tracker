@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-55-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--21-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-16.5%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-56-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--24-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-16.8%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 18 of 61
-- **Practitioner**: 37 of 174
+- **Practitioner**: 38 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -20,7 +20,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **File upload vulnerabilities**: 5/7 lab
 - **cross-site scripting**: 5/30 lab
 - **API testing**: 2/5 lab
-- **Race conditions**: 2/6 lab
+- **Race conditions**: 3/6 lab
 
 ## Notes
 
@@ -93,6 +93,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 48 | 2026-07-19 | API testing | Exploiting server-side parameter pollution in a query string | Practitioner | N/A |
 | 49 | 2026-07-21 | Race conditions | Limit overrun race conditions | Apprentice | N/A |
 | 50 | 2026-07-21 | Race conditions | Bypassing rate limits via race conditions | Practitioner | N/A |
+| 51 | 2026-07-24 | Race conditions | Multi-endpoint race conditions | Practitioner | N/A |
 
 
 
