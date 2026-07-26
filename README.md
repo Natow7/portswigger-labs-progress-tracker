@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-58-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--25-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-17.4%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-59-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--26-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-17.7%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -8,11 +8,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 
 - **Apprentice**: 18 of 61
 - **Practitioner**: 40 of 174
-- **Expert**: 0 of 39
+- **Expert**: 1 of 39
 
 ## Categories Covered
 
-- **Authentication vulnerabilities**: 9/14 lab
+- **Authentication vulnerabilities**: 10/14 lab
 - **SQL injection**: 11/18 lab
 - **Access control**: 10/13 lab
 - **Path traversal**: 6/6 lab
@@ -96,6 +96,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 51 | 2026-07-24 | Race conditions | Multi-endpoint race conditions | Practitioner | N/A |
 | 52 | 2026-07-25 | Race conditions | Single-endpoint race conditions | Practitioner | N/A |
 | 53 | 2026-07-25 | Race conditions | Exploiting time-sensitive vulnerabilities | Practitioner | N/A |
+| 54 | 2026-07-26 | Authentication vulnerabilities | 2FA bypass using a brute-force attack | Expert | https://medium.com/@natnaeltariku4/589b16628341 |
 
 
 
