@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-60-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--26-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-18%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-61-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--26-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-18.3%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
-- **Apprentice**: 19 of 61
+- **Apprentice**: 20 of 61
 - **Practitioner**: 40 of 174
 - **Expert**: 1 of 39
 
@@ -18,7 +18,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 5/7 lab
-- **cross-site scripting**: 6/30 lab
+- **cross-site scripting**: 7/30 lab
 - **API testing**: 2/5 lab
 - **Race conditions**: 5/6 lab
 
@@ -98,6 +98,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 53 | 2026-07-25 | Race conditions | Exploiting time-sensitive vulnerabilities | Practitioner | N/A |
 | 54 | 2026-07-26 | Authentication vulnerabilities | 2FA bypass using a brute-force attack | Expert | https://medium.com/@natnaeltariku4/589b16628341 |
 | 55 | 2026-07-26 | cross-site scripting | DOM XSS in jQuery selector sink using a hashchange event | Apprentice | N/A |
+| 56 | 2026-07-26 | cross-site scripting | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice | N/A |
 
 
 
