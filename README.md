@@ -96,7 +96,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 51 | 2026-07-24 | Race conditions | Multi-endpoint race conditions | Practitioner | N/A |
 | 52 | 2026-07-25 | Race conditions | Single-endpoint race conditions | Practitioner | N/A |
 | 53 | 2026-07-25 | Race conditions | Exploiting time-sensitive vulnerabilities | Practitioner | N/A |
-| 54 | 2026-07-26 | Authentication vulnerabilities | 2FA bypass using a brute-force attack | Expert | https://medium.com/@natnaeltariku4/589b16628341 |
+| 54 | 2026-07-26 | Authentication vulnerabilities | 2FA bypass using a brute-force attack | Expert | https://medium.com/@natnaeltariku4/️-port-swigger-lab-writeup-2fa-bypass-using-a-brute-force-attack-3f489963d8e3 |
 | 55 | 2026-07-26 | cross-site scripting | DOM XSS in jQuery selector sink using a hashchange event | Apprentice | N/A |
 | 56 | 2026-07-26 | cross-site scripting | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice | N/A |
 
