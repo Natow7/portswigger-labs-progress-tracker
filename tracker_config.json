@@ -13,7 +13,8 @@
     "File upload vulnerabilities": 7,
     "cross-site scripting": 30,
     "API testing": 5,
-    "Race conditions": 6
+    "Race conditions": 6,
+    "Server-side request forgery (SSRF)": 7
   },
-  "total_labs": 333
+  "total_labs": 340
 }

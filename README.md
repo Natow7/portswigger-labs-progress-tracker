@@ -21,6 +21,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **cross-site scripting**: 7/30 lab
 - **API testing**: 2/5 lab
 - **Race conditions**: 5/6 lab
+- **Server-side request forgery (SSRF)**: 0/7 lab
 
 ## Notes
 
