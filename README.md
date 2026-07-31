@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-62-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--29-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-18.2%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-63-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--31-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-18.5%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
-- **Apprentice**: 21 of 61
+- **Apprentice**: 22 of 61
 - **Practitioner**: 40 of 174
 - **Expert**: 1 of 39
 
@@ -21,7 +21,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **cross-site scripting**: 7/30 lab
 - **API testing**: 2/5 lab
 - **Race conditions**: 5/6 lab
-- **Server-side request forgery (SSRF)**: 1/7 lab
+- **Server-side request forgery (SSRF)**: 2/7 lab
 
 ## Notes
 
@@ -101,6 +101,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 55 | 2026-07-26 | cross-site scripting | DOM XSS in jQuery selector sink using a hashchange event | Apprentice | N/A |
 | 56 | 2026-07-26 | cross-site scripting | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice | N/A |
 | 57 | 2026-07-29 | Server-side request forgery (SSRF) | Basic SSRF against the local server | Apprentice | N/A |
+| 58 | 2026-07-31 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | Apprentice | N/A |
 
 
 
