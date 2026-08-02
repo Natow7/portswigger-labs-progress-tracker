@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-64-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--31-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-18.8%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-65-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--02-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-19.1%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 22 of 61
-- **Practitioner**: 41 of 174
+- **Practitioner**: 42 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -21,7 +21,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **cross-site scripting**: 7/30 lab
 - **API testing**: 2/5 lab
 - **Race conditions**: 5/6 lab
-- **Server-side request forgery (SSRF)**: 3/7 lab
+- **Server-side request forgery (SSRF)**: 4/7 lab
 
 ## Notes
 
@@ -103,6 +103,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 57 | 2026-07-29 | Server-side request forgery (SSRF) | Basic SSRF against the local server | Apprentice | N/A |
 | 58 | 2026-07-31 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | Apprentice | N/A |
 | 59 | 2026-07-31 | Server-side request forgery (SSRF) | SSRF with blacklist-based input filter | Practitioner | N/A |
+| 60 | 2026-08-02 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability | Practitioner | N/A |
 
 
 
