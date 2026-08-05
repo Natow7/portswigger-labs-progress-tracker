@@ -1,19 +1,19 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-67-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--03-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-19.7%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-68-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--05-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-20%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 22 of 61
-- **Practitioner**: 44 of 174
+- **Practitioner**: 45 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 10/14 lab
-- **SQL injection**: 12/18 lab
+- **SQL injection**: 13/18 lab
 - **Access control**: 10/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
@@ -106,6 +106,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 60 | 2026-08-02 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability | Practitioner | N/A |
 | 61 | 2026-08-02 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection | Practitioner | N/A |
 | 62 | 2026-08-03 | SQL injection | SQL injection attack, listing the database contents on Oracle | Practitioner | N/A |
+| 63 | 2026-08-05 | SQL injection | Blind SQL injection with time delays and information retrieval | Practitioner | N/A |
 
 
 
