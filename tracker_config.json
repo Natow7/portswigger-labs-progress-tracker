@@ -14,7 +14,8 @@
     "cross-site scripting": 30,
     "API testing": 5,
     "Race conditions": 6,
-    "Server-side request forgery (SSRF)": 7
+    "Server-side request forgery (SSRF)": 7,
+    "GraphQL API vulnerabilities": 5
   },
-  "total_labs": 340
+  "total_labs": 345
 }

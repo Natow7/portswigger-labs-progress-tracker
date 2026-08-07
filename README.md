@@ -22,6 +22,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **API testing**: 2/5 lab
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
+- **GraphQL API vulnerabilities**: 0/5 lab
 
 ## Notes
 
