@@ -1,19 +1,19 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-69-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--05-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-20.3%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-70-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--07-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-20.3%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 22 of 61
-- **Practitioner**: 46 of 174
+- **Practitioner**: 47 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 10/14 lab
-- **SQL injection**: 14/18 lab
+- **SQL injection**: 15/18 lab
 - **Access control**: 10/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
@@ -109,6 +109,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 62 | 2026-08-03 | SQL injection | SQL injection attack, listing the database contents on Oracle | Practitioner | N/A |
 | 63 | 2026-08-05 | SQL injection | Blind SQL injection with time delays and information retrieval | Practitioner | N/A |
 | 64 | 2026-08-05 | SQL injection | Visible error-based SQL injection | Practitioner | N/A |
+| 65 | 2026-08-07 | SQL injection | Blind SQL injection with time delays | Practitioner | N/A |
 
 
 
