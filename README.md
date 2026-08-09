@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-71-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--09-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-20.6%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-72-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--09-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-20.9%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 22 of 61
-- **Practitioner**: 48 of 174
+- **Practitioner**: 49 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -19,7 +19,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 5/7 lab
 - **cross-site scripting**: 7/30 lab
-- **API testing**: 3/5 lab
+- **API testing**: 4/5 lab
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
 - **GraphQL API vulnerabilities**: 0/5 lab
@@ -111,6 +111,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 64 | 2026-08-05 | SQL injection | Visible error-based SQL injection | Practitioner | N/A |
 | 65 | 2026-08-07 | SQL injection | Blind SQL injection with time delays | Practitioner | N/A |
 | 66 | 2026-08-09 | API testing | Finding and exploiting an unused API endpoint | Practitioner | N/A |
+| 67 | 2026-08-09 | API testing | Exploiting a mass assignment vulnerability | Practitioner | N/A |
 
 
 
