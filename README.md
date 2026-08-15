@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-73-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--15-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-21.2%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-74-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--15-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-21.4%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
-- **Apprentice**: 23 of 61
+- **Apprentice**: 24 of 61
 - **Practitioner**: 49 of 174
 - **Expert**: 1 of 39
 
@@ -18,7 +18,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 5/7 lab
-- **cross-site scripting**: 8/30 lab
+- **cross-site scripting**: 9/30 lab
 - **API testing**: 4/5 lab
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
@@ -113,6 +113,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 66 | 2026-08-09 | API testing | Finding and exploiting an unused API endpoint | Practitioner | N/A |
 | 67 | 2026-08-09 | API testing | Exploiting a mass assignment vulnerability | Practitioner | N/A |
 | 68 | 2026-08-15 | cross-site scripting | Stored XSS into anchor href attribute with double quotes HTML-encoded | Apprentice | N/A |
+| 69 | 2026-08-15 | cross-site scripting | Reflected XSS into a JavaScript string with angle brackets HTML encoded | Apprentice | N/A |
 
 
 
