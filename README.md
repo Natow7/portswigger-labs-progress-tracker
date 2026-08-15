@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-76-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--15-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-22%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-77-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--15-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-22.3%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 25 of 61
-- **Practitioner**: 50 of 174
+- **Practitioner**: 51 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -22,7 +22,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **API testing**: 4/5 lab
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
-- **GraphQL API vulnerabilities**: 1/5 lab
+- **GraphQL API vulnerabilities**: 2/5 lab
 
 ## Notes
 
@@ -116,6 +116,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 69 | 2026-08-15 | cross-site scripting | Reflected XSS into a JavaScript string with angle brackets HTML encoded | Apprentice | N/A |
 | 70 | 2026-08-15 | cross-site scripting | DOM XSS in document.write sink using source location.search inside a select element | Practitioner | y |
 | 71 | 2026-08-15 | GraphQL API vulnerabilities | Accessing private GraphQL posts | Apprentice | N/A |
+| 72 | 2026-08-15 | GraphQL API vulnerabilities | Accidental exposure of private GraphQL fields | Practitioner | N/A |
 
 
 
