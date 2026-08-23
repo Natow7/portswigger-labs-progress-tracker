@@ -119,6 +119,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 72 | 2026-08-15 | GraphQL API vulnerabilities | Accidental exposure of private GraphQL fields | Practitioner | N/A |
 | 73 | 2026-08-16 | GraphQL API vulnerabilities | Finding a hidden GraphQL endpoint | Practitioner | N/A |
 | 74 | 2026-08-16 | GraphQL API vulnerabilities | Finding a hidden GraphQL endpoint | Practitioner | N/A |
+mk,l,
 
 
 
