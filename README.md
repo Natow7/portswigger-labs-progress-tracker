@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-82-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--30-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-23%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-83-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--30-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-23.2%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 26 of 61
-- **Practitioner**: 55 of 174
+- **Practitioner**: 56 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -23,7 +23,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
 - **GraphQL API vulnerabilities**: 4/5 lab
-- **Cross-site request forgery (CSRF)**: 3/12 lab
+- **Cross-site request forgery (CSRF)**: 4/12 lab
 
 ## Notes
 
@@ -123,6 +123,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 75 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF vulnerability with no defenses | Apprentice | N/A |
 | 76 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token validation depends on request method | Practitioner | N/A |
 | 77 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token validation depends on token being present | Practitioner | N/A |
+| 78 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is not tied to user session | Practitioner | N/A |
 
 
 
