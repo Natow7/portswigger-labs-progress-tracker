@@ -29,8 +29,11 @@ DEFAULT_CONFIG = {
         "Access control": 13,
         "Path traversal": 6,
         "Command injection": 5,
+        "File upload vulnerabilities": 7,
+        "cross-site scripting": 30,
+        "API testing": 5,
     },
-    "total_labs": 285,
+    "total_labs": 327,
 }
 
 
@@ -481,8 +484,8 @@ def add_new_category(content, config):
     print(f"Saved to {CONFIG_FILE}.")
 
     # Offer to also insert a matching counter line into the README
-    existing_counters = list(re.finditer(r"^\*\*.+\*\*:\s*\d+/\d+\s*lab.*$", content, re.MULTILINE))
-    new_line = f"**{name}**: 0/{total} lab"
+    existing_counters = list(re.finditer(r"^-?\s*\*\*.+\*\*:\s*\d+/\d+\s*lab.*$", content, re.MULTILINE))
+    new_line = f"- **{name}**: 0/{total} lab"
     if existing_counters:
         preview_after = existing_counters[-1].group(0)
         print(f"\nI can insert this line into README.md right after your last category counter:")
@@ -535,8 +538,8 @@ def ensure_difficulty_counter(content, difficulty, diff_map):
 
     print(f"\nProblem: No '{difficulty}' difficulty counter found in README.md "
           f"(expected a line like '**{difficulty}**: X of {diff_map[difficulty]}').")
-    anchors = list(re.finditer(r"^\*\*.+\*\*:\s*\d+\s*of\s*\d+.*$", content, re.MULTILINE))
-    new_line = f"**{difficulty}**: 0 of {diff_map[difficulty]}"
+    anchors = list(re.finditer(r"^-?\s*\*\*.+\*\*:\s*\d+\s*of\s*\d+.*$", content, re.MULTILINE))
+    new_line = f"- **{difficulty}**: 0 of {diff_map[difficulty]}"
     if anchors:
         print("Recommendation: insert a starting line right after your last difficulty counter:")
         print(f"  ...after: {anchors[-1].group(0)}")
@@ -561,8 +564,8 @@ def ensure_category_counter(content, topic, cat_map):
 
     print(f"\nProblem: No '{topic}' category counter found in README.md "
           f"(expected a line like '**{topic}**: X/{cat_map[topic]} lab').")
-    anchors = list(re.finditer(r"^\*\*.+\*\*:\s*\d+/\d+\s*lab.*$", content, re.MULTILINE))
-    new_line = f"**{topic}**: 0/{cat_map[topic]} lab"
+    anchors = list(re.finditer(r"^-?\s*\*\*.+\*\*:\s*\d+/\d+\s*lab.*$", content, re.MULTILINE))
+    new_line = f"- **{topic}**: 0/{cat_map[topic]} lab"
     if anchors:
         print("Recommendation: insert a starting line right after your last category counter:")
         print(f"  ...after: {anchors[-1].group(0)}")
