@@ -23,6 +23,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
 - **GraphQL API vulnerabilities**: 4/5 lab
+- **Cross-site request forgery (CSRF)**: 0/12 lab
 
 ## Notes
 
@@ -118,7 +119,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 71 | 2026-08-15 | GraphQL API vulnerabilities | Accessing private GraphQL posts | Apprentice | N/A |
 | 72 | 2026-08-15 | GraphQL API vulnerabilities | Accidental exposure of private GraphQL fields | Practitioner | N/A |
 | 73 | 2026-08-16 | GraphQL API vulnerabilities | Finding a hidden GraphQL endpoint | Practitioner | N/A |
-| 74 | 2026-08-16 | GraphQL API vulnerabilities | Finding a hidden GraphQL endpoint | Practitioner | N/A |
+| 74 | 2026-08-16 | GraphQL API vulnerabilities | Bypassing GraphQL brute force protections | Practitioner | N/A |
 
 
 
