@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-84-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--30-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-23.5%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-85-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--30-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-23.8%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 26 of 61
-- **Practitioner**: 57 of 174
+- **Practitioner**: 58 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -23,7 +23,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
 - **GraphQL API vulnerabilities**: 4/5 lab
-- **Cross-site request forgery (CSRF)**: 5/12 lab
+- **Cross-site request forgery (CSRF)**: 6/12 lab
 
 ## Notes
 
@@ -125,6 +125,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 77 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token validation depends on token being present | Practitioner | N/A |
 | 78 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is not tied to user session | Practitioner | N/A |
 | 79 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is tied to non-session cookie | Practitioner | N/A |
+| 80 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is duplicated in cookie | Practitioner | N/A |
 
 
 
