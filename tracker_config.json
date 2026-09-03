@@ -16,7 +16,8 @@
     "Race conditions": 6,
     "Server-side request forgery (SSRF)": 7,
     "GraphQL API vulnerabilities": 5,
-    "Cross-site request forgery (CSRF)": 12
+    "Cross-site request forgery (CSRF)": 12,
+    "server-side template injection": 7
   },
-  "total_labs": 357
+  "total_labs": 364
 }
