@@ -23,8 +23,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 5/6 lab
 - **Server-side request forgery (SSRF)**: 5/7 lab
 - **GraphQL API vulnerabilities**: 4/5 lab
-- **Cross-site request forgery (CSRF)**: 8/12 lab
-- **server-side template injection**: 2/7 lab
+- **Cross-site request forgery (CSRF)**: 6/12 lab
+- **server-side template injection**: 4/7 lab
 
 ## Notes
 
