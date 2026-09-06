@@ -129,7 +129,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 80 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is duplicated in cookie | Practitioner | N/A |
 | 81 | 2026-09-03 | server-side template injection | Basic server-side template injection | Practitioner | N/A |
 | 82 | 2026-09-06 | server-side template injection | Basic server-side template injection (code context) | Practitioner | N/A |
-| 83 | 2026-09-06 | Cross-site request forgery (CSRF) | Server-side template injection using documentation | Practitioner | N/A |
+| 83 | 2026-09-06 | server-side template injection | Server-side template injection using documentation | Practitioner | N/A |
 | 84 | 2026-09-06 | server-side template injection | Server-side template injection in an unknown language with a documented exploit | Practitioner | N/A |
 
 
