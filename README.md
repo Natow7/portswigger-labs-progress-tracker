@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-89-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--06-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-24.5%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-90-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--13-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-23.3%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 26 of 61
-- **Practitioner**: 62 of 174
+- **Practitioner**: 63 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -27,7 +27,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **server-side template injection**: 4/7 lab
 - **Cross-site request forgery (CSRF)**: 8/12 lab
 - **server-side template injection**: 2/7 lab
-- **HTTP request smuggling**: 0/22 lab
+- **HTTP request smuggling**: 1/22 lab
 
 ## Notes
 
@@ -134,3 +134,4 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 82  | 2026-09-06 | server-side template injection     | Basic server-side template injection (code context)                                 | Practitioner | N/A                                                                                                             |
 | 83  | 2026-09-06 | server-side template injection     | Server-side template injection using documentation                                  | Practitioner | N/A                                                                                                             |
 | 84  | 2026-09-06 | server-side template injection     | Server-side template injection in an unknown language with a documented exploit     | Practitioner | N/A                                                                                                             |
+| 85 | 2026-09-13 | HTTP request smuggling | HTTP request smuggling, basic CL.TE vulnerability | Practitioner | N/A |
