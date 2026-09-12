@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-93-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--13-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-24.1%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-94-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--13-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-24.4%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 
 - **Apprentice**: 26 of 61
-- **Practitioner**: 66 of 174
+- **Practitioner**: 67 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -27,7 +27,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **server-side template injection**: 4/7 lab
 - **Cross-site request forgery (CSRF)**: 8/12 lab
 - **server-side template injection**: 2/7 lab
-- **HTTP request smuggling**: 4/22 lab
+- **HTTP request smuggling**: 5/22 lab
 
 ## Notes
 
@@ -138,3 +138,4 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 86 | 2026-09-13 | HTTP request smuggling | HTTP request smuggling, basic TE.CL vulnerability | Practitioner | N/A |
 | 87 | 2026-09-13 | HTTP request smuggling | HTTP request smuggling, obfuscating the TE header | Practitioner | N/A |
 | 88 | 2026-09-13 | HTTP request smuggling | HTTP request smuggling, confirming a CL.TE vulnerability via differential responses | Practitioner | N/A |
+| 89 | 2026-09-13 | HTTP request smuggling | HTTP request smuggling, confirming a TE.CL vulnerability via differential responses | Practitioner | N/A |
