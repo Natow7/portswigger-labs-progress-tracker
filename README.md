@@ -25,6 +25,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **GraphQL API vulnerabilities**: 4/5 lab
 - **Cross-site request forgery (CSRF)**: 6/12 lab
 - **server-side template injection**: 4/7 lab
+- **Cross-site request forgery (CSRF)**: 8/12 lab
+- **server-side template injection**: 2/7 lab
+- **HTTP request smuggling**: 0/22 lab
 
 ## Notes
 
@@ -45,92 +48,89 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 
 ## Solved Labs
 
-| No  | Date       | Topic                          | Lab Title                                                                           | Difficulty   | Writeup Link |
-| --- | ---------- | ------------------------------ | ----------------------------------------------------------------------------------- | ------------ | ------------ |
-| 1   | 2026-06-15 | SQL injection                  | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data       | Apprentice   | N/A          |
-| 2   | 2026-06-15 | SQL injection                  | SQL injection vulnerability allowing login bypass                                   | Apprentice   | N/A          |
-| 3   | 2026-06-16 | SQL injection                  | SQL injection UNION attack, determining the number of columns returned by the query | Practitioner | N/A          |
-| 4   | 2026-06-18 | SQL injection                  | SQL injection UNION attack, finding a column containing text                        | Practitioner | N/A          |
-| 5   | 2026-06-18 | SQL injection                  | SQL injection UNION attack, retrieving data from other tables                       | Practitioner | N/A          |
-| 6   | 2026-06-18 | SQL injection                  | SQL injection UNION attack, retrieving multiple values in a single column           | Practitioner | N/A          |
-| 7   | 2026-06-18 | SQL injection                  | SQL injection attack, querying the database type and version on MySQL and Microsoft | Practitioner | N/A          |
-| 8   | 2026-06-18 | SQL injection                  | SQL injection attack, listing the database contents on non-Oracle databases         | Practitioner | N/A          |
-| 9   | 2026-06-20 | SQL injection                  | Blind SQL injection with conditional responses                                      | Practitioner | N/A          |
-| 10  | 2026-06-20 | SQL injection                  | Blind SQL injection with conditional errors                                         | Practitioner | N/A          |
-| 11  | 2026-06-21 | SQL injection                  | Visible error-based SQL injection                                                   | Practitioner | N/A          |
-| 12  | 2026-06-21 | Access control                 | Unprotected admin functionality                                                     | Apprentice   | N/A          |
-| 13  | 2026-06-21 | Access control                 | Unprotected admin functionality with unpredictable URL                              | Apprentice   | N/A          |
-| 14  | 2026-06-21 | Access control                 | User role can be modified in user profile                                           | Apprentice   | N/A          |
-| 15  | 2026-06-21 | Access control                 | User ID controlled by request parameter                                             | Apprentice   | N/A          |
-| 16  | 2026-06-21 | Access control                 | Insecure direct object references                                                   | Apprentice   | N/A          |
-| 17  | 2026-06-28 | Authentication vulnerabilities | Username enumeration via different responses                                        | Practitioner | N/A          |
-| 18 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via subtly different responses | Practitioner | N/A |
-| 19 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via response timing | Practitioner | N/A |
-| 20 | 2026-06-28 | Authentication vulnerabilities | Broken brute-force protection, IP block | Practitioner | N/A |
-| 21 | 2026-06-28 | Authentication vulnerabilities | Username enumeration via account lock | Practitioner | N/A |
-| 22 | 2026-06-28 | Authentication vulnerabilities | 2FA simple bypass | Apprentice | N/A |
-| 23 | 2026-07-01 | Authentication vulnerabilities | 2FA broken logic | Practitioner | N/A |
-| 24 | 2026-07-03 | Path traversal | File path traversal, traversal sequences blocked with absolute path bypass | Practitioner | N/A |
-| 25 | 2026-07-03 | Path traversal | File path traversal, traversal sequences stripped non-recursively | Practitioner | N/A |
-| 26 | 2026-07-03 | Path traversal | File path traversal, traversal sequences stripped with superfluous URL-decode | Practitioner | N/A |
-| 27 | 2026-07-05 | Path traversal | File path traversal, validation of start of path | Practitioner | N/A |
-| 28 | 2026-07-05 | Path traversal | File path traversal, validation of file extension with null byte bypass | Practitioner | N/A |
-| 29 | 2026-07-05 | Command injection | Blind OS command injection with time delays | Practitioner | N/A |
-| 30 | 2026-07-05 | Command injection | Blind OS command injection with output redirection | Practitioner | N/A |
-| 31 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band interaction | Practitioner | N/A |
-| 32 | 2026-07-05 | Command injection | Blind OS command injection with out-of-band data exfiltration | Practitioner | N/A |
-| 33 | 2026-07-12 | Access control | User role controlled by request parameter | Apprentice | N/A |
-| 34 | 2026-07-12 | Access control | URL-based access control can be circumvented | Practitioner | N/A |
-| 35 | 2026-07-12 | Access control | Method-based access control can be circumvented | Practitioner | N/A |
-| 36 | 2026-07-12 | Access control | Multi-step process with no access control on one step | Practitioner | N/A |
-| 37 | 2026-07-12 | Access control | Referer-based access control | Practitioner | N/A |
-| 38 | 2026-07-12 | Authentication vulnerabilities | Brute-forcing a stay-logged-in cookie | Practitioner | N/A |
-| 39 | 2026-07-16 | File upload vulnerabilities | Remote code execution via web shell upload | Apprentice | N/A |
-| 40 | 2026-07-16 | File upload vulnerabilities | Web shell upload via Content-Type restriction bypass | Apprentice | N/A |
-| 41 | 2026-07-16 | File upload vulnerabilities | Web shell upload via path traversal | Practitioner | N/A |
-| 42 | 2026-07-16 | File upload vulnerabilities | Web shell upload via extension blacklist bypass | Practitioner | N/A |
-| 43 | 2026-07-16 | File upload vulnerabilities | Web shell upload via obfuscated file extension | Practitioner | N/A |
-| 44 | 2026-07-19 | cross-site scripting | document.write sink using source location.search | Apprentice | N/A |
-| 45 | 2026-07-19 | cross-site scripting | DOM XSS in document.write sink using source location.search inside a select element | Practitioner | N/A |
-| 46 | 2026-07-19 | cross-site scripting | DOM XSS in innerHTML sink using source location.search | Apprentice | N/A |
-| 47 | 2026-07-19 | API testing | Exploiting an API endpoint using documentation | Apprentice | N/A |
-| 48 | 2026-07-19 | API testing | Exploiting server-side parameter pollution in a query string | Practitioner | N/A |
-| 49 | 2026-07-21 | Race conditions | Limit overrun race conditions | Apprentice | N/A |
-| 50 | 2026-07-21 | Race conditions | Bypassing rate limits via race conditions | Practitioner | N/A |
-| 51 | 2026-07-24 | Race conditions | Multi-endpoint race conditions | Practitioner | N/A |
-| 52 | 2026-07-25 | Race conditions | Single-endpoint race conditions | Practitioner | N/A |
-| 53 | 2026-07-25 | Race conditions | Exploiting time-sensitive vulnerabilities | Practitioner | N/A |
-| 54 | 2026-07-26 | Authentication vulnerabilities | 2FA bypass using a brute-force attack | Expert | https://medium.com/@natnaeltariku4/️-port-swigger-lab-writeup-2fa-bypass-using-a-brute-force-attack-3f489963d8e3 |
-| 55 | 2026-07-26 | cross-site scripting | DOM XSS in jQuery selector sink using a hashchange event | Apprentice | N/A |
-| 56 | 2026-07-26 | cross-site scripting | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice | N/A |
-| 57 | 2026-07-29 | Server-side request forgery (SSRF) | Basic SSRF against the local server | Apprentice | N/A |
-| 58 | 2026-07-31 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | Apprentice | N/A |
-| 59 | 2026-07-31 | Server-side request forgery (SSRF) | SSRF with blacklist-based input filter | Practitioner | N/A |
-| 60 | 2026-08-02 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability | Practitioner | N/A |
-| 61 | 2026-08-02 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection | Practitioner | N/A |
-| 62 | 2026-08-03 | SQL injection | SQL injection attack, listing the database contents on Oracle | Practitioner | N/A |
-| 63 | 2026-08-05 | SQL injection | Blind SQL injection with time delays and information retrieval | Practitioner | N/A |
-| 64 | 2026-08-05 | SQL injection | Visible error-based SQL injection | Practitioner | N/A |
-| 65 | 2026-08-07 | SQL injection | Blind SQL injection with time delays | Practitioner | N/A |
-| 66 | 2026-08-09 | API testing | Finding and exploiting an unused API endpoint | Practitioner | N/A |
-| 67 | 2026-08-09 | API testing | Exploiting a mass assignment vulnerability | Practitioner | N/A |
-| 68 | 2026-08-15 | cross-site scripting | Stored XSS into anchor href attribute with double quotes HTML-encoded | Apprentice | N/A |
-| 69 | 2026-08-15 | cross-site scripting | Reflected XSS into a JavaScript string with angle brackets HTML encoded | Apprentice | N/A |
-| 70 | 2026-08-15 | cross-site scripting | DOM XSS in document.write sink using source location.search inside a select element | Practitioner | y |
-| 71 | 2026-08-15 | GraphQL API vulnerabilities | Accessing private GraphQL posts | Apprentice | N/A |
-| 72 | 2026-08-15 | GraphQL API vulnerabilities | Accidental exposure of private GraphQL fields | Practitioner | N/A |
-| 73 | 2026-08-16 | GraphQL API vulnerabilities | Finding a hidden GraphQL endpoint | Practitioner | N/A |
-| 74 | 2026-08-16 | GraphQL API vulnerabilities | Bypassing GraphQL brute force protections | Practitioner | N/A |
-| 75 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF vulnerability with no defenses | Apprentice | N/A |
-| 76 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token validation depends on request method | Practitioner | N/A |
-| 77 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token validation depends on token being present | Practitioner | N/A |
-| 78 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is not tied to user session | Practitioner | N/A |
-| 79 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is tied to non-session cookie | Practitioner | N/A |
-| 80 | 2026-08-30 | Cross-site request forgery (CSRF) | CSRF where token is duplicated in cookie | Practitioner | N/A |
-| 81 | 2026-09-03 | server-side template injection | Basic server-side template injection | Practitioner | N/A |
-| 82 | 2026-09-06 | server-side template injection | Basic server-side template injection (code context) | Practitioner | N/A |
-| 83 | 2026-09-06 | server-side template injection | Server-side template injection using documentation | Practitioner | N/A |
-| 84 | 2026-09-06 | server-side template injection | Server-side template injection in an unknown language with a documented exploit | Practitioner | N/A |
-
-
-
+| No  | Date       | Topic                              | Lab Title                                                                           | Difficulty   | Writeup Link                                                                                                    |
+| --- | ---------- | ---------------------------------- | ----------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------- |
+| 1   | 2026-06-15 | SQL injection                      | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data       | Apprentice   | N/A                                                                                                             |
+| 2   | 2026-06-15 | SQL injection                      | SQL injection vulnerability allowing login bypass                                   | Apprentice   | N/A                                                                                                             |
+| 3   | 2026-06-16 | SQL injection                      | SQL injection UNION attack, determining the number of columns returned by the query | Practitioner | N/A                                                                                                             |
+| 4   | 2026-06-18 | SQL injection                      | SQL injection UNION attack, finding a column containing text                        | Practitioner | N/A                                                                                                             |
+| 5   | 2026-06-18 | SQL injection                      | SQL injection UNION attack, retrieving data from other tables                       | Practitioner | N/A                                                                                                             |
+| 6   | 2026-06-18 | SQL injection                      | SQL injection UNION attack, retrieving multiple values in a single column           | Practitioner | N/A                                                                                                             |
+| 7   | 2026-06-18 | SQL injection                      | SQL injection attack, querying the database type and version on MySQL and Microsoft | Practitioner | N/A                                                                                                             |
+| 8   | 2026-06-18 | SQL injection                      | SQL injection attack, listing the database contents on non-Oracle databases         | Practitioner | N/A                                                                                                             |
+| 9   | 2026-06-20 | SQL injection                      | Blind SQL injection with conditional responses                                      | Practitioner | N/A                                                                                                             |
+| 10  | 2026-06-20 | SQL injection                      | Blind SQL injection with conditional errors                                         | Practitioner | N/A                                                                                                             |
+| 11  | 2026-06-21 | SQL injection                      | Visible error-based SQL injection                                                   | Practitioner | N/A                                                                                                             |
+| 12  | 2026-06-21 | Access control                     | Unprotected admin functionality                                                     | Apprentice   | N/A                                                                                                             |
+| 13  | 2026-06-21 | Access control                     | Unprotected admin functionality with unpredictable URL                              | Apprentice   | N/A                                                                                                             |
+| 14  | 2026-06-21 | Access control                     | User role can be modified in user profile                                           | Apprentice   | N/A                                                                                                             |
+| 15  | 2026-06-21 | Access control                     | User ID controlled by request parameter                                             | Apprentice   | N/A                                                                                                             |
+| 16  | 2026-06-21 | Access control                     | Insecure direct object references                                                   | Apprentice   | N/A                                                                                                             |
+| 17  | 2026-06-28 | Authentication vulnerabilities     | Username enumeration via different responses                                        | Practitioner | N/A                                                                                                             |
+| 18  | 2026-06-28 | Authentication vulnerabilities     | Username enumeration via subtly different responses                                 | Practitioner | N/A                                                                                                             |
+| 19  | 2026-06-28 | Authentication vulnerabilities     | Username enumeration via response timing                                            | Practitioner | N/A                                                                                                             |
+| 20  | 2026-06-28 | Authentication vulnerabilities     | Broken brute-force protection, IP block                                             | Practitioner | N/A                                                                                                             |
+| 21  | 2026-06-28 | Authentication vulnerabilities     | Username enumeration via account lock                                               | Practitioner | N/A                                                                                                             |
+| 22  | 2026-06-28 | Authentication vulnerabilities     | 2FA simple bypass                                                                   | Apprentice   | N/A                                                                                                             |
+| 23  | 2026-07-01 | Authentication vulnerabilities     | 2FA broken logic                                                                    | Practitioner | N/A                                                                                                             |
+| 24  | 2026-07-03 | Path traversal                     | File path traversal, traversal sequences blocked with absolute path bypass          | Practitioner | N/A                                                                                                             |
+| 25  | 2026-07-03 | Path traversal                     | File path traversal, traversal sequences stripped non-recursively                   | Practitioner | N/A                                                                                                             |
+| 26  | 2026-07-03 | Path traversal                     | File path traversal, traversal sequences stripped with superfluous URL-decode       | Practitioner | N/A                                                                                                             |
+| 27  | 2026-07-05 | Path traversal                     | File path traversal, validation of start of path                                    | Practitioner | N/A                                                                                                             |
+| 28  | 2026-07-05 | Path traversal                     | File path traversal, validation of file extension with null byte bypass             | Practitioner | N/A                                                                                                             |
+| 29  | 2026-07-05 | Command injection                  | Blind OS command injection with time delays                                         | Practitioner | N/A                                                                                                             |
+| 30  | 2026-07-05 | Command injection                  | Blind OS command injection with output redirection                                  | Practitioner | N/A                                                                                                             |
+| 31  | 2026-07-05 | Command injection                  | Blind OS command injection with out-of-band interaction                             | Practitioner | N/A                                                                                                             |
+| 32  | 2026-07-05 | Command injection                  | Blind OS command injection with out-of-band data exfiltration                       | Practitioner | N/A                                                                                                             |
+| 33  | 2026-07-12 | Access control                     | User role controlled by request parameter                                           | Apprentice   | N/A                                                                                                             |
+| 34  | 2026-07-12 | Access control                     | URL-based access control can be circumvented                                        | Practitioner | N/A                                                                                                             |
+| 35  | 2026-07-12 | Access control                     | Method-based access control can be circumvented                                     | Practitioner | N/A                                                                                                             |
+| 36  | 2026-07-12 | Access control                     | Multi-step process with no access control on one step                               | Practitioner | N/A                                                                                                             |
+| 37  | 2026-07-12 | Access control                     | Referer-based access control                                                        | Practitioner | N/A                                                                                                             |
+| 38  | 2026-07-12 | Authentication vulnerabilities     | Brute-forcing a stay-logged-in cookie                                               | Practitioner | N/A                                                                                                             |
+| 39  | 2026-07-16 | File upload vulnerabilities        | Remote code execution via web shell upload                                          | Apprentice   | N/A                                                                                                             |
+| 40  | 2026-07-16 | File upload vulnerabilities        | Web shell upload via Content-Type restriction bypass                                | Apprentice   | N/A                                                                                                             |
+| 41  | 2026-07-16 | File upload vulnerabilities        | Web shell upload via path traversal                                                 | Practitioner | N/A                                                                                                             |
+| 42  | 2026-07-16 | File upload vulnerabilities        | Web shell upload via extension blacklist bypass                                     | Practitioner | N/A                                                                                                             |
+| 43  | 2026-07-16 | File upload vulnerabilities        | Web shell upload via obfuscated file extension                                      | Practitioner | N/A                                                                                                             |
+| 44  | 2026-07-19 | cross-site scripting               | document.write sink using source location.search                                    | Apprentice   | N/A                                                                                                             |
+| 45  | 2026-07-19 | cross-site scripting               | DOM XSS in document.write sink using source location.search inside a select element | Practitioner | N/A                                                                                                             |
+| 46  | 2026-07-19 | cross-site scripting               | DOM XSS in innerHTML sink using source location.search                              | Apprentice   | N/A                                                                                                             |
+| 47  | 2026-07-19 | API testing                        | Exploiting an API endpoint using documentation                                      | Apprentice   | N/A                                                                                                             |
+| 48  | 2026-07-19 | API testing                        | Exploiting server-side parameter pollution in a query string                        | Practitioner | N/A                                                                                                             |
+| 49  | 2026-07-21 | Race conditions                    | Limit overrun race conditions                                                       | Apprentice   | N/A                                                                                                             |
+| 50  | 2026-07-21 | Race conditions                    | Bypassing rate limits via race conditions                                           | Practitioner | N/A                                                                                                             |
+| 51  | 2026-07-24 | Race conditions                    | Multi-endpoint race conditions                                                      | Practitioner | N/A                                                                                                             |
+| 52  | 2026-07-25 | Race conditions                    | Single-endpoint race conditions                                                     | Practitioner | N/A                                                                                                             |
+| 53  | 2026-07-25 | Race conditions                    | Exploiting time-sensitive vulnerabilities                                           | Practitioner | N/A                                                                                                             |
+| 54  | 2026-07-26 | Authentication vulnerabilities     | 2FA bypass using a brute-force attack                                               | Expert       | https://medium.com/@natnaeltariku4/️-port-swigger-lab-writeup-2fa-bypass-using-a-brute-force-attack-3f489963d8e3 |
+| 55  | 2026-07-26 | cross-site scripting               | DOM XSS in jQuery selector sink using a hashchange event                            | Apprentice   | N/A                                                                                                             |
+| 56  | 2026-07-26 | cross-site scripting               | Reflected XSS into attribute with angle brackets HTML-encoded                       | Apprentice   | N/A                                                                                                             |
+| 57  | 2026-07-29 | Server-side request forgery (SSRF) | Basic SSRF against the local server                                                 | Apprentice   | N/A                                                                                                             |
+| 58  | 2026-07-31 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system                                          | Apprentice   | N/A                                                                                                             |
+| 59  | 2026-07-31 | Server-side request forgery (SSRF) | SSRF with blacklist-based input filter                                              | Practitioner | N/A                                                                                                             |
+| 60  | 2026-08-02 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability                          | Practitioner | N/A                                                                                                             |
+| 61  | 2026-08-02 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection                                               | Practitioner | N/A                                                                                                             |
+| 62  | 2026-08-03 | SQL injection                      | SQL injection attack, listing the database contents on Oracle                       | Practitioner | N/A                                                                                                             |
+| 63  | 2026-08-05 | SQL injection                      | Blind SQL injection with time delays and information retrieval                      | Practitioner | N/A                                                                                                             |
+| 64  | 2026-08-05 | SQL injection                      | Visible error-based SQL injection                                                   | Practitioner | N/A                                                                                                             |
+| 65  | 2026-08-07 | SQL injection                      | Blind SQL injection with time delays                                                | Practitioner | N/A                                                                                                             |
+| 66  | 2026-08-09 | API testing                        | Finding and exploiting an unused API endpoint                                       | Practitioner | N/A                                                                                                             |
+| 67  | 2026-08-09 | API testing                        | Exploiting a mass assignment vulnerability                                          | Practitioner | N/A                                                                                                             |
+| 68  | 2026-08-15 | cross-site scripting               | Stored XSS into anchor href attribute with double quotes HTML-encoded               | Apprentice   | N/A                                                                                                             |
+| 69  | 2026-08-15 | cross-site scripting               | Reflected XSS into a JavaScript string with angle brackets HTML encoded             | Apprentice   | N/A                                                                                                             |
+| 70  | 2026-08-15 | cross-site scripting               | DOM XSS in document.write sink using source location.search inside a select element | Practitioner | y                                                                                                               |
+| 71  | 2026-08-15 | GraphQL API vulnerabilities        | Accessing private GraphQL posts                                                     | Apprentice   | N/A                                                                                                             |
+| 72  | 2026-08-15 | GraphQL API vulnerabilities        | Accidental exposure of private GraphQL fields                                       | Practitioner | N/A                                                                                                             |
+| 73  | 2026-08-16 | GraphQL API vulnerabilities        | Finding a hidden GraphQL endpoint                                                   | Practitioner | N/A                                                                                                             |
+| 74  | 2026-08-16 | GraphQL API vulnerabilities        | Bypassing GraphQL brute force protections                                           | Practitioner | N/A                                                                                                             |
+| 75  | 2026-08-30 | Cross-site request forgery (CSRF)  | CSRF vulnerability with no defenses                                                 | Apprentice   | N/A                                                                                                             |
+| 76  | 2026-08-30 | Cross-site request forgery (CSRF)  | CSRF where token validation depends on request method                               | Practitioner | N/A                                                                                                             |
+| 77  | 2026-08-30 | Cross-site request forgery (CSRF)  | CSRF where token validation depends on token being present                          | Practitioner | N/A                                                                                                             |
+| 78  | 2026-08-30 | Cross-site request forgery (CSRF)  | CSRF where token is not tied to user session                                        | Practitioner | N/A                                                                                                             |
+| 79  | 2026-08-30 | Cross-site request forgery (CSRF)  | CSRF where token is tied to non-session cookie                                      | Practitioner | N/A                                                                                                             |
+| 80  | 2026-08-30 | Cross-site request forgery (CSRF)  | CSRF where token is duplicated in cookie                                            | Practitioner | N/A                                                                                                             |
+| 81  | 2026-09-03 | server-side template injection     | Basic server-side template injection                                                | Practitioner | N/A                                                                                                             |
+| 82  | 2026-09-06 | server-side template injection     | Basic server-side template injection (code context)                                 | Practitioner | N/A                                                                                                             |
+| 83  | 2026-09-06 | server-side template injection     | Server-side template injection using documentation                                  | Practitioner | N/A                                                                                                             |
+| 84  | 2026-09-06 | server-side template injection     | Server-side template injection in an unknown language with a documented exploit     | Practitioner | N/A                                                                                                             |

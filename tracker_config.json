@@ -17,7 +17,8 @@
     "Server-side request forgery (SSRF)": 7,
     "GraphQL API vulnerabilities": 5,
     "Cross-site request forgery (CSRF)": 12,
-    "server-side template injection": 7
+    "server-side template injection": 7,
+    "HTTP request smuggling": 22
   },
-  "total_labs": 364
+  "total_labs": 386
 }
